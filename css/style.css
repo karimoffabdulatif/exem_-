@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #999;
+  }
+  
+  nav {
+    background-color:#212121;
+    width: 100%;
+    height: 40px;
+  }
+
+
+  .nav_tittle {
+    text-align: center;
+    color: #999;
+    padding-top:7px;
+  }
+
+
+.main-menu:hover,sidebar.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:#212121;
+border-right:1px solid #e5e5e5;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+overflow:hidden;
+transition:width .05s linear;
+transition:width .05s linear;
+transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+transform:translateZ(0) scale(1,1);
+transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menu .sidebar-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu {
+    background:#212121;
+    border-right:1px solid #e5e5e5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    left:0;
+    width:60px;
+    overflow:hidden;
+    -webkit-transition:width .05s linear;
+    transition:width .05s linear;
+    transform:translateZ(0) scale(1,1);
+    z-index:1000;
+    }
+
+.sidebar_btn {
+background-color:#212121; 
+width: 170px;
+height: 35px;
+border-radius: 5px;
+margin-top: 10px;
+margin-left: 20px;
+}
+.sidebar_btn:hover{
+    background-color: #515151;
+}
+
+.sidebar_btl_link {
+    text-decoration: none;
+    color: #999;
+}
+.sidebar_icon {
+    width: 30px;
+    height: 30px;
+    margin-left: -27px;
+    margin-top: 14px;
+    position: absolute;
+}
+
+.container {
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* MAIN_REGIST_AIRWAYS */
+.regist {
+    width: 1475px;
+    height: 653px;
+    border: 1px solid red;
+    background-color: azure;
+}
+
+.regis_nav {
+    width: 1475px;
+    height: 90px ;
+    background-color: #4274b8;
+}
+
+.airways_logo {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.regist_nav_lists {
+    list-style-type: none;
+    display: flex; 
+}
+
+.nav_bar {
+    margin-left: 350px ;
+    margin-top: -20px;
+}
+
+.regist_nav_links_1 {
+    color: white ;
+    text-decoration: none;
+}
+
+.regist_nav_links {
+    text-decoration: none;
+    color: rgb(160, 189, 217);
+    transition: all 1s ease;
+}
+
+.regist_nav_links:hover{
+    color: rgb(250, 250, 250);
+}
+
+.links {
+    margin-left: 100px;
+}
+
+
+.where{
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+.where_to{
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top:110px;
+    margin-left: 550px;
+}
+
+.registr_tittle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.date_input {
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:110px;
+    margin-left:1000px ;
+    text-align: center;
+}
+
+
+.age {
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:250px;
+    margin-left:80px ;
+    text-align: center;
+}
+
+.age_tittle {
+    font-size: 16px;
+    position: absolute;
+    margin-top:225px;
+    margin-left:170px ;
+    opacity: 50%;
+}
+
+
+.input_middle_age {
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:250px;
+    margin-left:550px ;
+    text-align: center;
+}
+
+.middle_age {
+    font-size: 16px;
+    position: absolute;
+    margin-top:225px;
+    margin-left:625px ;
+    opacity: 50%;
+}
+
+
+.paymod {
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 1000px;
+}
+
+.submit_btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(114, 220, 114);
+    margin-left: 1200px;
+    margin-top: 80px;
+    transition: all 1s ease;
+}
+.submit_btn:hover{
+    background-color: rgb(11, 182, 11);
+}
+
+.submit_link{
+    text-decoration: none;
+    color: white;
+}
+
+.exit_btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(235, 122, 122);
+    position: absolute;
+    margin-left: -1350px;
+    margin-top: 80px;
+    transition: all 1s ease;
+ 
+}
+.exit_btn:hover{
+background-color: red;
+}
+.exit_link{
+    text-decoration: none;
+    color: white;
+}
